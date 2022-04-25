@@ -1,0 +1,31 @@
+La colonne numero pokemon obtient une contrainte unique
+
+Les conditions font leurs apparitions:
+
+    Ajoute un pokémon doit avoir un first_name minimum sinon affiche l'erreur
+    Ajoute un champion doit avoir un champion minimum sinon affiche l'erreur
+
+    formUpdate pokemon doit avoir au minimum (numero,first_name,type1) sinon affiche les erreurs individuellement
+    Si l'image pokemon n'est pas saisis, l'image pokémon reste par défault 
+
+    formUpdate champion doit avoir au minimum (ville,champion,type,badge) sinon affiche les erreurs individuellement
+    Si l'image champion n'est pas saisis, l'image champion reste par défault 
+
+La barre de recherche fais son apparition:
+
+    recherche par first_name:
+    h3 = Nombres de pokémons trouvés: 
+    affichage de la card pokemon
+
+    recherche par champion:
+    h3 = Nombres de champion trouvés: 
+    affichage de la card champion
+
+showPokemon à jour:
+Le show affiche également les évolution du pokémon
+
+showChampion à jour:
+le show affiche également les pokémon du champion
+
+
+++:Insére ton champion perso et affiche ton équipe de rêve
